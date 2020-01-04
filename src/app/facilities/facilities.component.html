@@ -1,0 +1,19 @@
+<section class="facilities-container">
+    <article class="facility-header">
+        <h1>FACILITIES</h1>
+    </article>
+    <article class="facility-details">
+        <div class="facility" *ngFor="let item of locations">
+            <p class="line-item">{{item.line1}}</p>
+            <p class="line-item">{{item.line2}}</p>
+            <p class="line-item">{{item.line3}}</p>
+            <p class="line-item">{{item.line4}}</p>
+            <p class="line-item">{{item.line5}}</p>
+        </div>
+        <div class="google-map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.9872293261615!2d80.24489951540883!3d12.972668490855204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a525d6c240d6eef%3A0xa81474714f7319a7!2sHeatech%20Engineers!5e0!3m2!1sen!2sus!4v1578114793097!5m2!1sen!2sus"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+        </div>
+    </article>
+</section>

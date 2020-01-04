@@ -1,0 +1,41 @@
+.footer-container{
+    display: flex;
+    flex-direction: column;
+}
+.footnote {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #34495e;
+    color: white;
+}
+
+.footnote article{
+    flex-grow: 1;
+}
+.contact-info,.quick-links,.copyright{
+    margin-left: 5vh;
+}
+
+.line img {
+    max-height: 15px;
+    max-width: 15px;
+    filter: invert(1);
+}
+
+
+.link img {
+    max-height: 15px;
+    max-width: 15px;
+    filter: invert(1);
+}
+
+.footer {
+    background-color: #2C3E50;
+    color: white;
+    height: 5vh;
+}
+
+.footer p{
+    margin:0 0 0 0;
+    margin-left: 3%;
+}

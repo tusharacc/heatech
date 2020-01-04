@@ -1,0 +1,26 @@
+<nav class="navbar">
+    <span class="navbar-toggle" >
+        <img src="../../assets/web_image/options.png" (click)="toggleMenu()"/>
+    </span>
+    <a href="#" class="logo"><img src="../../assets/logo/Heatech.png"></a>
+    <ul class="main-nav" [ngClass]="{'active':menuToggle === true}" >
+        <li>
+            <a routerLink="/home" class="nav-links">HOME</a>
+        </li>
+        <li>
+            <a routerLink="/aboutus" class="nav-links">ABOUT US</a>
+        </li>
+        <li>
+            <a routerLink="/products" class="nav-links">PRODUCTS</a>
+        </li>
+        <li>
+            <a routerLink="/facilities" class="nav-links">FACILITIES</a>
+        </li>
+        <li>
+            <a href="#" class="nav-links">CAREERS</a>
+        </li>
+        <li>
+            <a routerLink="/contactus" class="nav-links">CONTACT US</a>
+        </li>
+    </ul>
+</nav>

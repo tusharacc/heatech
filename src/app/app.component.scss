@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oswald&display=swap');
+
+* {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Oswald', sans-serif; 
+}
+#back-to-top img{
+    position: fixed;
+    right:2%;
+    bottom: 2%;
+    max-width: 10vh;
+    max-height: 10vh;
+    background-color: gray;
+    padding: 1% 1% 1% 1%;
+    filter: invert(1);
+}
+
+#back-to-top img:hover{
+    background-color: #48cfad;;
+}
