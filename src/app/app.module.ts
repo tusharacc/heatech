@@ -10,7 +10,7 @@ import { ProductsComponent } from './products/products.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { ContactusComponent } from './contactus/contactus.component';
 import { AboutusComponent } from './aboutus/aboutus.component';
-
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -26,7 +26,8 @@ import { AboutusComponent } from './aboutus/aboutus.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FontAwesomeModule
   ],
   providers: [
   ],

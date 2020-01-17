@@ -8,66 +8,59 @@
 section {
     margin-top: 2vh;;
 }
+
+.images-slider{
+    height: 30em;
+    width: 100%;
+}
+
+.images-slider img{
+    height: 30em;
+    width: 100%
+}
+
 .slider {
     display: flex;
-    padding: 0 0 0 0;
-
-}
-.slide  {
-    display: inline-flex;
-    background-color:red;
-    width: 100%;
+    flex-direction: column;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
+    height: 30em;
 }
 
-.slide img {
-    width: 100%;
-    height: 60vh;
-    padding: 0 0 0 0;
-    margin: 0 0 0 0;
+.inactive {
+    display: none
 }
 
-.rotate {
+.navigation{
     position: relative;
-    width: 10vh;
-    height: 10vh;
-    background-color: white;
-    border-radius: 20vh;
-}
-.rotate[role="back"]{
-    top:40vh;
-    left:-74%;
-    background: transparent url("../../assets/web_image/back.svg") no-repeat top left;
-    background-color: red;
+    top:-20em;
 }
 
-.rotate[role="next"]{
-    background-position: top right;
-    top:40vh;
-    right: -18%;
-    background: transparent url("../../assets/web_image/next.svg") no-repeat top left;
-    background-color: white;
+.compenents-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    margin-left: 1%;
 }
 
-.punch {
-    position: relative;
-    width: 50vh;
-    height: 10vh;
-    top: 20vh;
-    left:-70%;
-    color: white;    
+.arrow{
+    flex-grow: 1;
+    top:-100%;
+}
+
+.punch{
+    margin-left: 10%;
+    flex-grow: 20;
+    color: white;
+    font-size: 1.5em;;
 }
 
 .read-more{
-    font-size: small;
-    margin-top: 20%;
-    border-radius: 5px;
-    height: 8vh;
-    width: 20vh;
-    background-color: #48cfad ;
-    text-align: center;
-    line-height: 8vh;;
+    background-color: #48cfad;
+    padding: 2% 2% 2% 2%;
+    width: 15%;
 }
 
 .basic-information{
@@ -121,6 +114,24 @@ section {
     .company-basics {
       display: inline-flex;
       flex-direction: column;
+    }
+
+    .slider{
+        height: 20em;
+    }
+
+    .punch{
+        font-size: 1em;
+    }
+
+    .images-slider img{
+        height: 20em;
+        width: 100%
+    }
+
+    .navigation{
+        position: relative;
+        top:-15em;
     }
   }
 
