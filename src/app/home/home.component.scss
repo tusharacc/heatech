@@ -16,7 +16,8 @@ section {
 
 .images-slider img{
     height: 30em;
-    width: 100%
+    width: 100%;
+    filter:opacity(45%);
 }
 
 .slider {
@@ -53,7 +54,8 @@ section {
 .punch{
     margin-left: 10%;
     flex-grow: 20;
-    color: white;
+    color: black;
+    font-weight: bolder;
     font-size: 1.5em;;
 }
 
@@ -61,6 +63,7 @@ section {
     background-color: #48cfad;
     padding: 2% 2% 2% 2%;
     width: 15%;
+    cursor: pointer;
 }
 
 .basic-information{

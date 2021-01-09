@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { faChevronLeft,faChevronRight } from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -10,11 +11,14 @@ export class HomeComponent implements OnInit {
   
   left = faChevronLeft;
   right = faChevronRight;
-  constructor() { }
+  
+  constructor(private router: Router) { }
 
   ngOnInit() {
   }
 
-  
+  navigateTo(){
+    this.router.navigate(['/','aboutus']);
+  }
 
 }

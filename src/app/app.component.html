@@ -1,8 +1,9 @@
+<!--  -->
 <div (window:scroll)="onWindowScroll($event)">
     <app-header></app-header>
     <router-outlet></router-outlet>
     <app-footer></app-footer>
-    <div id="back-to-top" (click)="moveToTop()">
+    <div id="back-to-top" [ngClass]="getCSSClasses()" (click)="moveToTop()" >
         <img src="../assets/icons/top.svg" />
     </div>
 </div>
